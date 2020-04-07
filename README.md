@@ -9,7 +9,7 @@
 
 ## About Sisela
 
-Sisela adalah kepanjangan dari Sistem Informasi Sekolah. Pada sistem ini, tersedia fitur:
+Sisela adalah Sistem Informasi Sekolah yang mulai didevelop pada tanggal 7 April 2020. Pada sistem ini, tersedia fitur:
 1. Fitur Pendaftaran Peserta Didik (PPDB)
 2. Management Pendaftaran Peserta Didik (PPDB)
 3. Fitur Keuangan
