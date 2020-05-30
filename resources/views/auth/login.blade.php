@@ -38,8 +38,20 @@
                         </div>
 
                         <div class="container-login100-form-btn m-t-32">
-                            <button class="login100-form-btn">
-                                Login
+                            <button class="btn btn-success" style="width:80%; border-radius:18px;">
+                                <i class="fa fa-sign-in"></i> &nbsp; Login
+                            </button>
+                        </div>
+
+                        <div class="container-login100-form-btn m-t-32">
+                            <a href="{{ route('daftar-psb') }}" class="btn btn-primary" style="width:80%; border-radius:18px;">
+                                <i class="fa fa-user-plus"></i>  Pendaftaran
+                            </a>
+                        </div>
+
+                        <div class="container-login100-form-btn m-t-32">
+                            <button class="btn btn-info" style="width:80%; border-radius:18px;">
+                                <i class="fa fa-info-circle"></i> Informasi PPDB
                             </button>
                         </div>
 
