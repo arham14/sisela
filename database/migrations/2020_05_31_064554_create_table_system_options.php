@@ -16,7 +16,7 @@ class CreateTableSystemOptions extends Migration
         Schema::create('system_options', function (Blueprint $table) {
             $table->id();
             $table->string('prefix_psb', 4);
-            $table->string('tahun_aktif');
+            $table->string('tahun_aktif', 4);
             $table->timestamps();
         });
     }
