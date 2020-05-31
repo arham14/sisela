@@ -20,8 +20,8 @@ class CreateTableSiswa extends Migration
             $table->date('tanggal_lahir');
             $table->string('jenis_kelamin', 1);
             $table->string('golongan_darah', 2);
-            $table->integer('jumlah_saudara', 2);
-            $table->integer('anak_ke', 2);
+            $table->tinyInteger('jumlah_saudara');
+            $table->tinyInteger('anak_ke');
             $table->string('alamat');
             $table->string('kode_kelurahan', 15);
             $table->string('kode_kecamatan', 15);
