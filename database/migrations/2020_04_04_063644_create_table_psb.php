@@ -18,8 +18,8 @@ class CreateTablePsb extends Migration
             $table->string('kode_siswa', 25);
             $table->string('nik', 35);
             $table->string('kode_tahun', 25);
-            $table->boolean('status_terima');
-            $table->string('kelas_tujuan', 2);
+            $table->boolean('status_terima')->nullable();
+            $table->string('kelas_tujuan', 2)->nullable();
             $table->dateTime('waktu_daftar');
             $table->ipAddress('ip_daftar');
             $table->timestamps();
