@@ -13,7 +13,7 @@ class CreateTableSystemOptions extends Migration
      */
     public function up()
     {
-        Schema::create('table_system_options', function (Blueprint $table) {
+        Schema::create('system_options', function (Blueprint $table) {
             $table->id();
             $table->string('prefix_psb', 4);
             $table->tinyInteger('tahun_aktif');
@@ -28,6 +28,6 @@ class CreateTableSystemOptions extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_system_options');
+        Schema::dropIfExists('system_options');
     }
 }
