@@ -16,6 +16,7 @@ class CreateTablePsb extends Migration
         Schema::create('Data_Siswa_Psb', function (Blueprint $table) {
             $table->id();
             $table->string('kode_siswa', 25);
+            $table->string('nik', 35);
             $table->string('kode_tahun', 25);
             $table->boolean('status_terima');
             $table->string('kelas_tujuan', 2);
